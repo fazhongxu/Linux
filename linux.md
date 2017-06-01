@@ -1,3 +1,8 @@
+//阿里云服务器上安装jdk,etc/profile 配置环境变量
+//安装tomcat 用wget tomcat下载的url（去tomcat官网找到下载的连接地址） 下载即可，配置环境变量，
+//直接用阿里云分配的ip地址：8080就能进入tomcat使用
+//echo $PATH
+
 1.复制命令cp
 
 命令格式：cp [选项] <source><dest>
