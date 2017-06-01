@@ -9,6 +9,9 @@ export JAVA_HOME=/root/applicationsoftware/jdk1.8.0_131
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar 
 export PATH=$JAVA_HOME/bin:$PATH
 
+//让配置的环境变量立即生效 
+source /etc/profile
+
 1.复制命令cp
 
 命令格式：cp [选项] <source><dest>
