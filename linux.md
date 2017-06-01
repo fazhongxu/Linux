@@ -9,11 +9,21 @@ export JAVA_HOME=/root/applicationsoftware/jdk1.8.0_131
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar 
 export PATH=$JAVA_HOME/bin:$PATH
 
+//解压 
+
+tar -xvf xxx.gz
+
+//WinScp 图形界面操作 传递文件到阿里云服务器
+
+//PuTTY 命令操作阿里云服务器
+
+
 //让配置的环境变量立即生效 
 source /etc/profile
 
 ./ 执行文件  如 ./java
 
+//如果配置好Java环境变量 直接用  java命令就行，不用./java
 1.复制命令cp
 
 命令格式：cp [选项] <source><dest>
