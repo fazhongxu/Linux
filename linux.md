@@ -12,6 +12,8 @@ export PATH=$JAVA_HOME/bin:$PATH
 //让配置的环境变量立即生效 
 source /etc/profile
 
+./ 执行文件  如 ./java
+
 1.复制命令cp
 
 命令格式：cp [选项] <source><dest>
