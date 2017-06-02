@@ -23,6 +23,15 @@ source /etc/profile
 
 ./ 执行文件  如 ./java
 
+//查找文件路径命令
+find -name my.cnf
+locate my.cnf
+whereis my.cnf
+
+/etc/init.d/mysql
+
+
+
 //如果配置好Java环境变量 直接用  java命令就行，不用./java
 1.复制命令cp
 
