@@ -7,6 +7,10 @@ home/xxl
 
 cp /home/xxl/桌面/gradle-3.3-all.zip /home/xxl/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9
 
+tar命令 归档并压缩命令
+
+tar -zcvf android-studio.tar.gz android-studio //把android-studio 归档并压缩为android-studio.tar.gz文件
+
 
 //阿里云服务器上安装jdk,etc/profile 配置环境变量
 //安装tomcat 用wget tomcat下载的url（去tomcat官网找到下载的连接地址） 下载即可，配置环境变量，
