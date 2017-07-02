@@ -1,3 +1,15 @@
+ubuntu 下安装git 
+sudo apt-get install git
+配置用户名和邮箱 
+ git config --global user.name "xxx"
+ git config --global user.email "xxx@163.com"
+ 
+ ssh-keygen -C 'xxx@163.com' -t rsa
+ 
+ 就能使用了
+
+
+
 linux下的host文件位置
 /etc/hosts
 
