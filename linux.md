@@ -1,3 +1,9 @@
+linux下的host文件位置
+/etc/hosts
+
+linux下 刷新dns
+sudo /etc/init.d/networking restart 
+
 Linux下 Android Studio gradle位置 
 
 ~/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9
