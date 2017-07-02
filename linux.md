@@ -11,6 +11,19 @@ tar命令 归档并压缩命令
 
 tar -zcvf android-studio.tar.gz android-studio //把android-studio 归档并压缩为android-studio.tar.gz文件
 
+配置studio的环境变量
+
+vim /etc/profile 打开文件在最后添加
+
+export ADROID_STUDIO_HOME=/usr/local/android/android-studio/
+
+export PATH=$ADROID_STUDIO_HOME/bin:$PATH
+
+//其中 /local/android/android-studio/是自己的android studio 安装的位置
+
+source /etc/profile 刷新文件
+
+然后就能在终端输入 studio.sh打开android studio了
 
 //阿里云服务器上安装jdk,etc/profile 配置环境变量
 //安装tomcat 用wget tomcat下载的url（去tomcat官网找到下载的连接地址） 下载即可，配置环境变量，
