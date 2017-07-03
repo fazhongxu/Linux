@@ -35,3 +35,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 export ADROID_STUDIO_HOME=/usr/local/android/android-studio/
 
 export PATH=$ADROID_STUDIO_HOME/bin:$PATH
+
+export TOMCAT_HOME=/usr/local/apache-tomcat-7.0.79
+
+export PATH=$TOMCAT_HOME/bin:$PATH
+
+export ECLIPSE_HOME=/usr/local/eclipse
+
+export PATH=$ECLIPSE_HOME/:$PATH
