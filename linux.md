@@ -7,6 +7,19 @@ sudo dpkg -i google-chrome*; sudo apt-get -f install
 然后就可以使用了
 /usr/bin/google-chrome-stable 
 
+ubuntu teamViewer安装
+
+进入官网，找到下载地址https://www.teamviewer.com/en/download/linux/ 火狐复制下载地址
+
+如12版本
+
+https://download.teamviewer.com/download/teamviewer_i386.deb
+
+执行命令
+
+wget https://download.teamviewer.com/download/teamviewer_i386.deb 进行下载
+
+sudo dpkg -i teamviewer_i386.deb 安装
 
 ubuntu 下安装git 
 sudo apt-get install git
