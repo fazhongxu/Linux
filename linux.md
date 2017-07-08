@@ -21,6 +21,11 @@ wget https://download.teamviewer.com/download/teamviewer_i386.deb 进行下载
 
 sudo dpkg -i teamviewer_i386.deb 安装
 
+如果安装出现 依赖错误
+使用此命令
+sudo apt-get install -f
+
+
 ubuntu 下安装git 
 sudo apt-get install git
 配置用户名和邮箱 
