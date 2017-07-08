@@ -1,3 +1,13 @@
+ubuntu 安装chrome
+64位
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i google-chrome*; sudo apt-get -f install
+
+然后就可以使用了
+/usr/bin/google-chrome-stable 
+
+
 ubuntu 下安装git 
 sudo apt-get install git
 配置用户名和邮箱 
