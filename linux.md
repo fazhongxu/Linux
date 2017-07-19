@@ -1,3 +1,24 @@
+
+安装maven
+
+Maven的下载地址：http://maven.apache.org/download.cgi
+这里以最新的3.2.3版本为例进行安装，在这之前需要确保机器上已经安装了JDK。
+
+首先下载Maven并解压，并移动到usr/local目录下
+
+$ wget http://mirror.bit.edu.cn/apache/maven/maven-3/3.2.3/binaries/apache-maven-3.2.3-bin.tar.gz
+$ tar vxf apache-maven-3.2.3-bin.tar.gz
+$ mv apache-maven-3.2.3 /usr/local/maven
+修改环境变量，在/etc/profile中添加以下几行
+
+MAVEN_HOME=/usr/local/maven
+export MAVEN_HOME
+export PATH=${PATH}:${MAVEN_HOME}/bin
+记得执行source /etc/profile使环境变量生效。
+
+最后运行mvn -v验证maven是否安装成功
+
+
 ubuntu 安装chrome
 64位
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
