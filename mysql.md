@@ -35,4 +35,6 @@ alter table user add sex char(2) first;
 
 插入数据 insert into student (id,name,age,sex,loc) values (3,"王二",20,"男","北京");
 
+查询所有数据 select * from student;
+
 
