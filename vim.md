@@ -71,5 +71,6 @@ vim 有三种模式 命令模式（任何时候按下esc键之后的模式） �
  terminal 执行命令行时，快速移动光标到第一个位置 Control+A
  移动光标到尾部，Control+E
  切换到上一个命令 Control+P，下一个命令Control+N
- 
+ 搜索以前的命令 Control+R 
+ 以单词为单位移动光标 Option+方向箭头
  
