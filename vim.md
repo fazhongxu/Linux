@@ -50,7 +50,7 @@ vim 有三种模式 命令模式（任何时候按下esc键之后的模式） �
  
  :sh 切换到命令行，用ctrl+d切换回vim
  
- :set nunumber 设置行号
+ :set nuumber 设置行号
  
  :set nonumber 设置隐藏行号
  
@@ -67,5 +67,9 @@ vim 有三种模式 命令模式（任何时候按下esc键之后的模式） �
  6$ 第6行行尾
  
  12G 跳转到12行
+ 
+ terminal 执行命令行时，快速移动光标到第一个位置 Control+A
+ 移动光标到尾部，Control+E
+ 切换到上一个命令 Control+P，下一个命令Control+N
  
  
