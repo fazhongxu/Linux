@@ -1,8 +1,10 @@
- terminal 执行命令行时，快速移动光标到第一个位置 control+a
+ terminal 执行命令
+ 快速移动光标到第一个位置 control+a
  移动光标到尾部，control+e
  切换到上一个命令 control+p，下一个命令Control+n
- 搜索以前的命令 control+r
+ 搜索以前的命令       control+r
  以单词为单位移动光标 option+方向箭头
- 清除屏幕：            ctrl + l
- 清除当前行：         ctrl + u
- 清除至当前行尾：   ctrl + k
+ 清除屏幕           control + l
+ 清除当前行         control + u
+ 清除至当前行尾      control + k
+ 撤销上一个操作      control+y
